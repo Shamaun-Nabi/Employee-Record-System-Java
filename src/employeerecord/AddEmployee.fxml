@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@CssFile.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employeerecord.AddEmployeeController">
+   <children>
+      <Circle fill="DODGERBLUE" layoutX="143.0" layoutY="127.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label alignment="CENTER" prefHeight="59.0" prefWidth="600.0" style="-fx-background-color: #00BCD4;" text="Employee Categories" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="salariedEmployee" layoutX="182.0" layoutY="108.0" mnemonicParsing="false" onAction="#SalariedTextField" prefHeight="38.0" prefWidth="236.0" stylesheets="@CssFile.css" text="Add Salaried Employee" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="hourlyEmployee" layoutX="182.0" layoutY="181.0" mnemonicParsing="false" onAction="#HourlyTextField" prefHeight="38.0" prefWidth="236.0" stylesheets="@CssFile.css" text="Add Hourly Employee" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="commisionEmployee" layoutX="182.0" layoutY="251.0" mnemonicParsing="false" onAction="#commissionTextField" prefHeight="38.0" prefWidth="236.0" text="Add Commission Employee" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="goHome" layoutX="27.0" layoutY="16.0" mnemonicParsing="false" onAction="#GoHome" prefHeight="28.0" prefWidth="88.0" style="-fx-background-color: #EB5757;" text="GO HOME" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="9.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="14.0" fitWidth="17.0" layoutX="33.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/home.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="39.0" layoutX="124.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/salaried.png" />
+         </image>
+      </ImageView>
+      <Circle fill="#0ec972" layoutX="143.0" layoutY="200.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="38.0" fitWidth="28.0" layoutX="129.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/hourly.png" />
+         </image>
+      </ImageView>
+      <Circle fill="#4287ff" layoutX="143.0" layoutY="270.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="28.0" fitWidth="39.0" layoutX="129.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/commision.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

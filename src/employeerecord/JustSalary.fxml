@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2d3436;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employeerecord.JustSalaryController">
+   <children>
+      <Label alignment="CENTER" prefHeight="58.0" prefWidth="600.0" style="-fx-background-color: #34BCB5;" text="Salary" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="54.0" layoutY="17.0" mnemonicParsing="false" onAction="#goToBack" prefHeight="25.0" prefWidth="62.0" style="-fx-background-color: #02465E;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="homeButton" layoutX="524.0" layoutY="17.0" mnemonicParsing="false" onAction="#goHome" prefHeight="25.0" prefWidth="62.0" style="-fx-background-color: #2EE54D;" text="Home" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="34.0" layoutY="110.0" prefHeight="46.0" prefWidth="172.0" text="Enter Employee ID Number :" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="justSalaryId" alignment="CENTER" layoutX="214.0" layoutY="113.0" prefHeight="39.0" prefWidth="251.0" promptText="Enter ID" />
+      <Button fx:id="justCheck" layoutX="483.0" layoutY="113.0" mnemonicParsing="false" onAction="#justCheckButton" prefHeight="39.0" prefWidth="82.0" style="-fx-background-color: #34BCB5;" text="Check" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="outputSal" editable="false" layoutX="136.0" layoutY="182.0" prefHeight="204.0" prefWidth="407.0" />
+      <Label layoutX="34.0" layoutY="265.0" prefHeight="39.0" prefWidth="82.0" text="Result" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

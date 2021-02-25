@@ -1,0 +1,154 @@
+/*
+Md Shamaun Nabi
+Ashik
+*/
+/* 
+    Created on : Feb 4, 2020, 11:58:48 PM
+    Author     : snashik
+*/
+
+#commsionSubmit{
+    -fx-background-color: linear-gradient(#37BDDA,#22BCB1);
+}
+#commsionSubmit:hover{
+    -fx-background-color: linear-gradient(#00DAF0,#4F86FB);
+     -fx-font-size:15px;
+}
+
+
+#showAll:hover{
+     -fx-background-color: linear-gradient(#00DAF0,#4F86FB);
+     -fx-font-size:15px;
+}
+
+#showAll{
+    -fx-background-color:#008080;
+    -fx-font-size:14px;
+}
+#salariedEmployee{
+    -fx-background-color: linear-gradient(#00DAF0,#4F86FB);
+    -fx-font-size:14px;
+}
+
+#commisionEmployee{
+    -fx-background-color: linear-gradient(#EA65F4,#684CBB);
+    -fx-font-size:14px;
+}
+#hourlyEmployee{
+    -fx-background-color: linear-gradient(#FD9369,#FE4C6E);
+    -fx-font-size:14px;
+}
+
+#salariedEmployee:hover{
+    -fx-background-color:#4B5054;
+    -fx-font-size:18px;
+    
+}
+
+#commisionEmployee:hover{
+    -fx-background-color:#4B5054;
+    -fx-font-size:18px;
+}
+#hourlyEmployee:hover{
+    -fx-background-color:#4B5054;
+    -fx-font-size:18px;
+}
+
+
+#designButton{
+ -fx-border:2px;
+ -fx-border-color:#55C5FF;
+  -fx-background-color:#008080;
+  -fx-border-radius:10px;
+}
+
+#designButton:hover{
+    -fx-border-color:#FF5605;
+   -fx-background-color:#FF5605;
+   -fx-text-fill:white; 
+   -fx-border-radius:10px;
+   -fx-border:2px;
+}
+
+#loginButton{
+    -fx-background-color: #0DCA78;
+}
+
+#loginButton:hover{
+   -fx-background-color:#FF5605;
+   -fx-text-fill:white; 
+    
+}
+
+
+#pane{
+    -fx-background-color:#F0F0F0;
+    
+}
+
+#header{
+    -fx-background-color: linear-gradient(#0AB0B1,#09ADA1); 
+}
+#updateSalary{
+     -fx-background-color: #F8BF13;
+}
+#updateSalary:hover{
+    -fx-background-color:#C73BA5;
+    -fx-text-fill:white; 
+    -fx-font-size:14px;
+}
+#addEmployee{
+    -fx-background-color: #F26159;
+}
+#addEmployee:hover{
+    -fx-background-color:#FE0081;
+    -fx-text-fill:white; 
+    -fx-font-size:14px;
+}
+
+#SearchEmployee{
+    -fx-background-color:#55C5FF;
+    
+    
+}
+
+#SearchEmployee:hover{
+    -fx-background-color:#4B5054;
+    -fx-text-fill:white; 
+    -fx-font-size:14px;
+}
+
+#justSalary{
+     -fx-background-color: #1ABC9C;
+    
+     
+}
+#justSalary:hover{
+    -fx-background-color:#020345;
+    -fx-text-fill:white; 
+    -fx-font-size:14px;
+}
+#AllInfromation{
+    -fx-background-color: linear-gradient(#E0498E,#FF4D6D);
+    -fx-font-size:16px;
+    
+}
+
+#AllInfromation:hover{
+    -fx-background-color:#FE0081;
+    -fx-text-fill:white; 
+    -fx-font-size:14px;
+}
+
+#clear{
+     -fx-background-color: #0294C3;
+    -fx-text-fill: white;
+    
+}
+#clear:hover{
+    
+    -fx-background-color: linear-gradient(#C82749,red);
+   
+}
+
+

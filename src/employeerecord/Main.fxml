@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="400.0" prefWidth="600.0" stylesheets="@CssFile.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employeerecord.MainController">
+   <children>
+      <Button fx:id="addEmployee" layoutX="58.0" layoutY="89.0" mnemonicParsing="false" onAction="#gotToAdd" prefHeight="91.0" prefWidth="184.0" text="Add Employee" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="SearchEmployee" layoutX="58.0" layoutY="200.0" mnemonicParsing="false" onAction="#goToSearch" prefHeight="91.0" prefWidth="184.0" text="Search Employee" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="updateSalary" layoutX="370.0" layoutY="90.0" mnemonicParsing="false" onAction="#gotToUpdate" prefHeight="91.0" prefWidth="184.0" text="Increase Salary" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="justSalary" layoutX="370.0" layoutY="200.0" mnemonicParsing="false" onAction="#justSalary" prefHeight="91.0" prefWidth="184.0" text="Salaray Employee" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="AllInfromation" layoutX="146.0" layoutY="322.0" mnemonicParsing="false" onAction="#SeeAllInformation" prefHeight="40.0" prefWidth="309.0" text="All Information of Employee" textFill="#fffdfd">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <effect>
+            <Reflection fraction="1.0" topOpacity="0.24" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="header" alignment="CENTER" prefHeight="63.0" prefWidth="601.0" text="   Emplloyee Record System" textFill="WHITE">
+         <font>
+            <Font name="Bookshelf Symbol 7" size="22.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="28.0" fitWidth="32.0" layoutX="67.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Add.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="32.0" layoutX="386.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/upadte.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="32.0" layoutX="67.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/search.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="32.0" layoutX="379.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/empl.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="32.0" layoutX="168.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/all.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="138.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Employee.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="378.0" prefHeight="11.0" prefWidth="238.0" text="© 2020 Shamaun Nabi All Rights Reserved" textFill="#949292" />
+      <Button fx:id="clear" layoutX="502.0" layoutY="366.0" mnemonicParsing="false" onAction="#clearData" text="Clear All Data" textFill="WHITE" />
+      <Circle fill="#fa6058" layoutX="532.0" layoutY="14.0" radius="8.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#ffbe35" layoutX="554.0" layoutY="14.0" radius="8.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#177086" layoutX="576.0" layoutY="14.0" radius="8.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Button layoutX="14.0" layoutY="20.0" mnemonicParsing="false" onAction="#logOut" prefHeight="28.0" prefWidth="88.0" style="-fx-background-color: #0AB0B1;" text="Log Out" textFill="WHITE" />
+      <ImageView fitHeight="17.0" fitWidth="16.0" layoutX="14.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/logout.png" />
+         </image>
+      </ImageView>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>

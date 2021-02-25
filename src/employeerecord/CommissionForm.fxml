@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2d3436;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employeerecord.CommissionFormController">
+   <children>
+      <Label alignment="CENTER" prefHeight="39.0" prefWidth="600.0" style="-fx-background-color: #34BCB5;" text="Add Information Of Commision Employee" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="32.0" layoutY="4.0" mnemonicParsing="false" onAction="#goToBack" prefHeight="24.0" prefWidth="62.0" style="-fx-background-color: #02465E;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="homeButton" layoutX="524.0" layoutY="4.0" mnemonicParsing="false" onAction="#goHome" prefHeight="10.0" prefWidth="56.0" style="-fx-background-color: #2EE54D;" text="Home" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="94.0" layoutY="89.0" prefHeight="46.0" prefWidth="110.0" text=" Enter Name :" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="commisionName" alignment="CENTER" layoutX="209.0" layoutY="89.0" prefHeight="46.0" prefWidth="251.0" promptText="Enter Employee Name" />
+      <Label alignment="CENTER" layoutX="94.0" layoutY="139.0" prefHeight="46.0" prefWidth="110.0" text="Enter ID :" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="commisionId" alignment="CENTER" layoutX="210.0" layoutY="142.0" prefHeight="39.0" prefWidth="251.0" promptText="Enter ID" />
+      <Label alignment="CENTER" layoutX="72.0" layoutY="187.0" prefHeight="46.0" prefWidth="132.0" text="Enter Designation :" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="commsionDes" alignment="CENTER" layoutX="209.0" layoutY="190.0" prefHeight="39.0" prefWidth="251.0" promptText="Enter Designation" />
+      <Button fx:id="commsionSubmit" layoutX="249.0" layoutY="331.0" mnemonicParsing="false" onAction="#commsionSubmitButton" prefHeight="39.0" prefWidth="172.0" stylesheets="@CssFile.css" text="Submit" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label alignment="CENTER" layoutX="83.0" layoutY="233.0" prefHeight="46.0" prefWidth="132.0" text="Commission :" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="commisonRate" alignment="CENTER" layoutX="209.0" layoutY="236.0" prefHeight="39.0" prefWidth="251.0" promptText="Add commision" />
+      <Label alignment="CENTER" layoutX="94.0" layoutY="279.0" prefHeight="46.0" prefWidth="132.0" text="Sale :" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="commisionSale" alignment="CENTER" layoutX="209.0" layoutY="282.0" prefHeight="39.0" prefWidth="251.0" promptText="Add sale" />
+      <ImageView fitHeight="10.0" fitWidth="15.0" layoutX="39.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="24.0" layoutX="276.0" layoutY="339.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/submit.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
